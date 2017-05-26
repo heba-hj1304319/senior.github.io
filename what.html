@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>What is Summarize</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/9aeaa74150.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="jumbotron text-center" id="header">
+    <h2>Text Summarization for Multiple Languages on Mobile Devices</h2>
+</div>
+<nav class="navbar navbar-default" id="navigationBar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="layout.html">Summarize</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="what.html">What is Summarize</a></li>
+                <li><a href="why.html">Why would you like it</a></li>
+                <li><a href="who.html">About us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <br>
+    <h3>What is Summarize</h3>
+
+
+    <div id="paragraphs-what">
+
+        <br>
+        <h4>The Application</h4>
+        <p>Summarize is an Android application that can act as a pre-reader for the user who is using his/her
+            mobile phone to read some documents. The application can have 2 main sources of the documents:
+
+            <ol>
+               <li>
+            It can provide a google search functionality to surf through the web and select a document from the search results.
+               </li>
+               <li>
+            You can import an existing document from your mobile device memory to our app to be summarized.
+              </li>
+            </ol>
+        In addition, the summarized text can be saved to a database and retrieved later whenever needed.
+        </p>
+        <br>
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                        <img src="./imgs/search.png" alt="Lights" style="width:90%">
+                        <div class="caption">
+                            <p>Search results that can be selected and summarized.</p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                        <img src="./imgs/import.png" alt="Nature" style="width:90%">
+                        <div class="caption">
+                            <p>Ability to import documents from mobile device memory.</p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="./imgs/myDocs.png" alt="Nature" style="width:90%">
+                    <div class="caption">
+                        <p>The saved summaries list that are retrieved from a database.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <br>
+        <h4>How does it work</h4>
+        <p>
+            To summarize a document, we are using Hyper Rectangular Algorithm which is based on Formal Concept Analysis.
+            This algorithm can obtain the most relevant sentences in a document, which can be represented as a summary.
+        </p>
+        <div class="thumbnail">
+            <img src="./imgs/HCalgorithm.png" alt="Nature" style="width:90%">
+            <div class="caption">
+                <p>The basic steps that can be done to get the most important sentences.</p>
+            </div>
+        </div>
+        <br>
+        <h4>The Incremental Approach</h4>
+        <p>
+            Summarizing the whole document all at once might take a long time, especially if the document contains large amount of text.
+            In the incremental approach, after the document has gone through the original algorithm, the rest of the documents will be divided into chunks.
+            Each time a new chunk will undergo the algorithm with the previously computed summary by using the already calculated weights from the previous chunks.
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
